@@ -11,5 +11,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 
 # grep variations
-alias findgrep="grep -rnw . -e "
+alias findbygrep="grep -rnw . -e "
+alias findbyname="find . -name"
 echo Exiting .bash_aliases dotfile
