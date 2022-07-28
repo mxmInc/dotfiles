@@ -14,3 +14,6 @@ alias ....="cd ../../.."
 alias findbygrep="grep -rnw . -e "
 alias findbyname="find . -name"
 echo Exiting .bash_aliases dotfile
+
+alias echo-path="echo "$PATH" | tr ':' '\n'
+alias lerna="npx lerna"
