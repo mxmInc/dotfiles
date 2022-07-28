@@ -13,7 +13,7 @@ alias ....="cd ../../.."
 # grep variations
 alias findbygrep="grep -rnw . -e "
 alias findbyname="find . -name"
-alias echo-path="echo $PATH | tr ':' '\n'"
+alias echo-path="echo "$PATH" | tr ':' '\n'"
 alias lerna="npx lerna"
 
 echo Exiting .bash_aliases dotfile
