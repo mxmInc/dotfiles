@@ -23,8 +23,9 @@ alias lpm="npx lerna"
 alias lpx="npx lerna run"
 
 # mxm
-alias mbuild ="npx lerna run build"
-alias mtest ="npx lerna run test"
+alias mbuild="npx lerna run build"
+alias mtest="npx lerna run test"
+alias mtestjs="npx lerna run test-js"
 
 echo Exiting .bash_aliases dotfile with ...
 alias
