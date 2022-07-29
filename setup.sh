@@ -1,1 +1,1 @@
-export PROMPT_DIRTRIP=3
+export PROMPT_DIRTRIM=3
