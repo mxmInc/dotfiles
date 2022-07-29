@@ -1,0 +1,1 @@
+export PROMPT_DIRTRIP=3
