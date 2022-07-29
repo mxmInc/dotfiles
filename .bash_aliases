@@ -31,3 +31,4 @@ echo Exiting .bash_aliases dotfile with ...
 alias
 
 
+export PROMPT_DIRTRIM=3
