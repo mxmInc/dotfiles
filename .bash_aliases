@@ -13,12 +13,20 @@ alias ....="cd ../../.."
 # grep variations
 alias findbygrep="grep -rnw . -e "
 alias findbyname="find . -name"
+
+# path
 alias echo-path="echo \$PATH | tr ':' '\n' | sort"
+
+# lerna
 alias lerna="npx lerna"
 alias lpm="npx lerna"
 alias lpx="npx lerna run"
 
-echo Exiting .bash_aliases dotfile
+# mxm
+alias mbuild ="npx lerna run build"
+alias mtest ="npx lerna run test"
+
+echo Exiting .bash_aliases dotfile with ...
 alias
 
 
