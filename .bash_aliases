@@ -21,12 +21,11 @@ alias show-exports="export | sort"
 alias show-path="echo \$PATH | tr ':' '\n' | sort"
 
 # lerna
-alias lerna="npx lerna"
-alias laa="npx lerna"
-alias lar="npx lerna run"
-alias lac="npx lerna clean"
-alias lan="npx lerna info"
-alias lal="npx lerna list"
+alias lx="npx lerna"
+alias lxr="npx lerna run"
+alias lxc="npx lerna clean"
+alias lxn="npx lerna info"
+alias lxl="npx lerna list"
 
 # mxm
 alias mbuild="npx lerna run build"
