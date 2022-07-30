@@ -28,9 +28,10 @@ alias lxn="npx lerna info"
 alias lxl="npx lerna list -all"
 
 # mxm
-alias mbuild="npx lerna run build"
-alias mtest="npx lerna run test"
-alias mtestjs="npx lerna run test-js"
+alias mxbuild="npx lerna run build"
+alias mxtest="npx lerna run test"
+alias mxtestjs="npx lerna run test-js"
+alias mxc=cat ~/.bash_aliases
 
 # npm/yarn agnostic commands (credit: npm @antfu/ni)
 alias ni="npx ni" #install
