@@ -14,8 +14,10 @@ alias ....="cd ../../.."
 alias findbygrep="grep -rnw . -e "
 alias findbyname="find . -name"
 
-# path
-alias echo-path="echo \$PATH | tr ':' '\n' | sort"
+# show
+alias show-env="env | sort"
+alias show-exports="export | sort"
+alias show-path="echo \$PATH | tr ':' '\n' | sort"
 
 # lerna
 alias lerna="npx lerna"
