@@ -25,7 +25,7 @@ alias lx="npx lerna"
 alias lxr="npx lerna run"
 alias lxc="npx lerna clean"
 alias lxn="npx lerna info"
-alias lxl="npx lerna list"
+alias lxl="npx lerna list -all"
 
 # mxm
 alias mbuild="npx lerna run build"
