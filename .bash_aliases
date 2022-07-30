@@ -22,8 +22,11 @@ alias show-path="echo \$PATH | tr ':' '\n' | sort"
 
 # lerna
 alias lerna="npx lerna"
-alias lpm="npx lerna"
-alias lpx="npx lerna run"
+alias laa="npx lerna"
+alias lar="npx lerna run"
+alias lac="npx lerna clean"
+alias lan="npx lerna info"
+alias lal="npx lerna list"
 
 # mxm
 alias mbuild="npx lerna run build"
