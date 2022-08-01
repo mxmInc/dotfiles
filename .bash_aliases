@@ -18,7 +18,7 @@ alias findbyname="find . -name 2> /dev/null"
 alias show-alias="alias | sort"
 alias show-env="env | sort"
 alias show-exports="export | sort"
-alias show-path="echo \$PATH | tr ':' '\n' | sort"
+alias show-path="echo \$PATH | tr ':' '\n'"
 
 # lerna
 alias lx="npx lerna"
